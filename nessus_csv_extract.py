@@ -1,5 +1,9 @@
 #!/usr/bin/python
 
+aurthor = "iNV4d3R S4M (Sumit Shrivastava)"
+__version__ = "1.0.0"
+__published__ = "02-Sep-2015"
+
 import optparse, sys, re
 
 nessus_plugin_id_regex = re.compile(r"\"\d{5,5}\"")
